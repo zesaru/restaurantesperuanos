@@ -1,0 +1,58 @@
+@media screen and (max-width:480px){
+	body
+	{
+		width: auto;
+
+	}
+	header
+	{
+		margin: 0 auto;
+	}
+	header figure
+	{
+	margin: 0 auto;
+
+	}
+	header #logo img
+	{
+	width: 34px;
+	margin: 0;
+	padding: 0.5em;
+	}
+	header h1
+	{
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0.5em;
+	}
+	#contenido .derecha
+	{
+		width: auto;
+		float:none;
+	}
+	#contenido .item .facebook_item:after
+	{
+		color: #3C599D;
+		content: "\e002";
+		font-family: "icomoon";
+		font-size: 25px;
+		padding-left: 0.5em;
+		text-decoration: none;
+		float: right;
+	}
+	#contenido .item .homepage_icon:after
+	{
+		color: #B82B39;
+		content: "\e00e";
+		font-family: "icomoon";
+		font-size: 25px;
+		text-decoration: none;
+		float: right;
+	}
+	#contenido .izquierda
+	{
+		width: auto;
+		float:none;
+	}
+}
